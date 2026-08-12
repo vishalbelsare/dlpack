@@ -18,12 +18,25 @@ Macros
 
 .. doxygendefine:: DLPACK_FLAG_BITMASK_IS_COPIED
 
+.. doxygendefine:: DLPACK_FLAG_BITMASK_IS_SUBBYTE_TYPE_PADDED
+
 Enumerations
 ~~~~~~~~~~~~
 
 .. doxygenenum:: DLDeviceType
 
 .. doxygenenum:: DLDataTypeCode
+
+
+Typedefs
+~~~~~~~~
+
+.. doxygentypedef:: DLPackManagedTensorAllocator
+.. doxygentypedef:: DLPackManagedTensorFromPyObjectNoSync
+.. doxygentypedef:: DLPackManagedTensorToPyObjectNoSync
+.. doxygentypedef:: DLPackDLTensorFromPyObjectNoSync
+.. doxygentypedef:: DLPackCurrentWorkStream
+
 
 Structs
 ~~~~~~~
@@ -44,4 +57,10 @@ Structs
    :members:
 
 .. doxygenstruct:: DLManagedTensorVersioned
+   :members:
+
+.. doxygenstruct:: DLPackExchangeAPIHeader
+   :members:
+
+.. doxygenstruct:: DLPackExchangeAPI
    :members:
